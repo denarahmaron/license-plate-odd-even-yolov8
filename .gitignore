@@ -1,0 +1,61 @@
+# ======================
+# PYTHON
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# VIRTUAL ENV
+# ======================
+venv/
+.env/
+.venv/
+
+# ======================
+# JUPYTER NOTEBOOK
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# YOLOv8 / ML FILES
+# ======================
+
+# Dataset (jangan upload)
+datasets/
+data/
+*.zip
+*.rar
+
+# Training results (YOLOv8 auto generate)
+runs/
+logs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# ======================
+# IDE / EDITOR
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# OS FILES
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# LOG FILES
+# ======================
+*.log
+
+# ======================
+# TEMP FILES
+# ======================
+tmp/
+temp/
